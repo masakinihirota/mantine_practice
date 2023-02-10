@@ -1,3 +1,23 @@
+# Mantine の練習
+
+## todo
+
+インストール
+- [x] T3を使ってのインストール
+- [x] T3上でのMantineの設定方法
+上記の環境での
+- [x] ページ表示
+- [x] ページ遷移
+- [ ] 画面ナビの設定
+- [ ] 2画面 Nav + main
+- [ ] Header Footer Nav Side Main
+- [ ]
+- [ ]
+- [ ]
+
+
+---
+
 # Create T3 App
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
