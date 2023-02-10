@@ -2,6 +2,9 @@
 
 ## todo
 
+Create T3 App
+https://create.t3.gg/
+
 インストール
 
 - [x] T3 を使ってのインストール
