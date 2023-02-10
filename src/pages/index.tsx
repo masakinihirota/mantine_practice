@@ -8,6 +8,8 @@ import { api } from "../utils/api";
 
 // Mantine
 import { Button } from "@mantine/core";
+// 自作コンポーネント
+import SomePart from "../components/somepart";
 
 const Home: NextPage = () => {
   const hello = api.example.hello.useQuery({ text: "from tRPC" });
@@ -20,14 +22,15 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="text-2xl text-blue-300">
+      <div className="text-2xl text-orange-700">
         {hello.data ? hello.data.greeting : "Loading tRPC query..."}
       </div>
       <Link href="/value">
-        <Button className="text-2xl text-blue-300">
+        <Button className="text-2xl text-blue-800">
           value(名前は適当)ページに移動
         </Button>
       </Link>
+      <SomePart label="hello" name="default" />
     </>
   );
 };

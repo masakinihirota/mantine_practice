@@ -17,7 +17,7 @@ const MyApp: AppType = (props) => {
         withNormalizeCSS
         theme={{
           /** Put your mantine theme override here */
-          colorScheme: "dark",
+          colorScheme: "light",
         }}
       >
         <Component {...pageProps} />
