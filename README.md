@@ -3,18 +3,20 @@
 ## todo
 
 インストール
-- [x] T3を使ってのインストール
-- [x] T3上でのMantineの設定方法
+
+- [x] T3 を使ってのインストール
+- [x] T3 上での Mantine の設定方法
+
 上記の環境での
+
 - [x] ページ表示
 - [x] ページ遷移
 - [ ] 画面ナビの設定
-- [ ] 2画面 Nav + main
+- [ ] 2 画面 Nav + main
 - [ ] Header Footer Nav Side Main
 - [ ]
 - [ ]
 - [ ]
-
 
 ---
 
