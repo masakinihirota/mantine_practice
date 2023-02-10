@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-call */
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { createGetInitialProps } from "@mantine/next";
 import Document, { Head, Html, Main, NextScript } from "next/document";
 
