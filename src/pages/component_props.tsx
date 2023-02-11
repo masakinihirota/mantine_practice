@@ -14,7 +14,7 @@ const Value: NextPage = () => {
         <Link href="/">
           <Button className="text-purple-600">TOPに移動</Button>
         </Link>
-        <StylesAPI></StylesAPI>
+        <StylesAPI />
       </div>
     </>
   );
