@@ -1,8 +1,10 @@
 import type { NextPage } from "next";
 import {
   Button,
+  Card,
   Container,
   MantineProvider,
+  Paper,
   Slider,
   Text,
 } from "@mantine/core";
@@ -85,7 +87,7 @@ const StylesAPI: NextPage = () => {
           ml md * -1
         </Button>
       </Container>
-      11111
+      color
       <Container mt="md">
         <Button color="blue">blue</Button>
         <Button color="blue.0">blue.0</Button>
@@ -96,7 +98,7 @@ const StylesAPI: NextPage = () => {
         <Button color="pink">pink</Button>
         <Button color="teal">teal</Button>
       </Container>
-      222
+      size
       <Container mt="md">
         <Button size="sm">sm</Button>
         <Button size="md">md</Button>
@@ -104,6 +106,47 @@ const StylesAPI: NextPage = () => {
         <Slider size="md" />
         <Slider size="xl" />
         <Slider size={20} />
+      </Container>
+      Shadows
+      <Container mt="md">
+        <Paper p="lg" sx={{ backgroundColor: "#F8F8F8" }}>
+          <Card m="xl" shadow="xs">
+            shadow="xs"
+          </Card>
+          <Card m="xl" shadow="md">
+            shadow="md"
+          </Card>
+          <Card m="xl" shadow="xl">
+            shadow="xl"
+          </Card>
+        </Paper>
+      </Container>
+      独自の影を設定
+      <Container mt="md">
+        <MantineProvider
+          theme={{
+            shadows: {
+              xs: "0px 0px 2px 5px rgba(0, 0, 0, 0.2)",
+              md: "5px 0px 5px 10px rgba(0, 0, 0, 0.1)",
+              xl: "0px 5px 0px 15px rgba(0, 0, 0, 0.3)",
+            },
+          }}
+        >
+          <Paper p="lg" sx={{ backgroundColor: "#F8F8F8" }}>
+            <Card m="xl" shadow="xs">
+              shadow="xs"
+            </Card>
+            <Card m="xl" shadow="md">
+              shadow="md"
+            </Card>
+            <Card m="xl" shadow="xl">
+              shadow="xl"
+            </Card>
+            <Card m="xl" shadow="0px 0px 5px 10px rgba(0, 0, 0, 0.3)">
+              shadow="xl"
+            </Card>
+          </Paper>
+        </MantineProvider>
       </Container>
     </>
   );
