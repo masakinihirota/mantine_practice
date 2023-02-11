@@ -96,6 +96,15 @@ const StylesAPI: NextPage = () => {
         <Button color="pink">pink</Button>
         <Button color="teal">teal</Button>
       </Container>
+      222
+      <Container mt="md">
+        <Button size="sm">sm</Button>
+        <Button size="md">md</Button>
+        <Button size="lg">lg</Button>
+        <Slider size="md" />
+        <Slider size="xl" />
+        <Slider size={20} />
+      </Container>
     </>
   );
 };
