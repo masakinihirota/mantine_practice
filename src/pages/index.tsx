@@ -31,6 +31,11 @@ const Home: NextPage = () => {
         </Button>
       </Link>
       <SomePart label="hello" name="default" />
+      <Link href="/component_props">
+        <Button className="text-2xl text-blue-800">
+          component propsページに移動
+        </Button>
+      </Link>
     </>
   );
 };
