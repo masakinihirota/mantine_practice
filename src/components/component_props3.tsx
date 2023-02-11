@@ -1,18 +1,11 @@
 import type { NextPage } from "next";
-import {
-  Button,
-  Card,
-  Container,
-  MantineProvider,
-  Paper,
-  Slider,
-  Text,
-} from "@mantine/core";
+import { Container } from "@mantine/core";
 
 const StylesAPI3: NextPage = () => {
   return (
     <>
-      111
+      <br />
+      Mantine 入門3
       <Container></Container>
     </>
   );
