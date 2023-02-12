@@ -14,7 +14,9 @@ import {
   MediaQuery,
   Burger,
   useMantineTheme,
+  ScrollArea,
 } from "@mantine/core";
+import Link from "next/link";
 // import { Button } from "@mantine/core";
 
 // 自作コンポーネント
@@ -62,17 +64,108 @@ const Value: NextPage = () => {
         //   <Navbar.Section>Footer with user</Navbar.Section>
         // </Navbar>
         //
-        <Navbar
-          width={{
-            // viewport が theme.breakpoints.sm より大きい場合、Navbar の幅は300 になります。
-            sm: 300,
-            // ビューポートが theme.breakpoints.lg よりも大きい場合、ナビバーの幅は 400 になります。
-            lg: 400,
-            // 他のブレークポイントが一致しない場合、ベース幅が使用され、デフォルトは100%になる
-            base: 100,
-          }}
-        >
-          Application navbar
+        // <Navbar
+        //   width={{
+        //     // viewport が theme.breakpoints.sm より大きい場合、Navbar の幅は300 になります。
+        //     sm: 300,
+        //     // ビューポートが theme.breakpoints.lg よりも大きい場合、ナビバーの幅は 400 になります。
+        //     lg: 400,
+        //     // 他のブレークポイントが一致しない場合、ベース幅が使用され、デフォルトは100%になる
+        //     base: 100,
+        //   }}
+        // >
+        //   Application navbar
+        // </Navbar>
+        //
+        // <Navbar position={{ top: 0, left: 0 }}>Application navbar</Navbar>
+        //
+
+        <Navbar height={200} p="xs" width={{ base: 300 }}>
+          <Navbar.Section mt="xs">Header with logo</Navbar.Section>
+
+          <Navbar.Section grow component={ScrollArea} mx="-xs" px="xs">
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+            <Link href="/">Home</Link>
+            <br />
+          </Navbar.Section>
+          <Navbar.Section>Footer with user</Navbar.Section>
         </Navbar>
       }
       aside={
@@ -80,7 +173,7 @@ const Value: NextPage = () => {
           {/* <Aside p="md" hiddenBreakpoint="sm" width={{ sm: 200, lg: 300 }}>
             <Text>Application sidebar</Text>
           </Aside> */}
-          <Aside height={400} p="xs" width={{ base: 300 }}>
+          <Aside fixed={false} height={400} p="xs" width={{ base: 300 }}>
             <Aside.Section> Header with logo</Aside.Section>
             <Aside.Section grow>Links sections 1</Aside.Section>
             <Aside.Section grow>Links sections 2</Aside.Section>
