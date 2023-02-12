@@ -44,19 +44,39 @@ const Value: NextPage = () => {
         // >
         //   <Text>Application navbar</Text>
         // </Navbar>
-        <Navbar height={300} p="xs" width={{ base: 250 }}>
-          <Navbar.Section>{"Header with logo"}</Navbar.Section>
+        //
+        // <Navbar height={300} p="xs" width={{ base: 250 }}>
+        //   <Navbar.Section>{"Header with logo"}</Navbar.Section>
+        //   <Navbar.Section grow mt="md">
+        //     {"Links sections"}
+        //   </Navbar.Section>
+        //   <Text>Application navbar</Text>
+        //   <Navbar.Section>{"Footer with user"}</Navbar.Section>
+        // </Navbar>
+        //
+        <Navbar height={600} p="xs" width={{ base: 300 }}>
+          <Navbar.Section> Header with logo</Navbar.Section>
           <Navbar.Section grow mt="md">
-            {"Links sections"}
+            Links sections
           </Navbar.Section>
-          <Text>Application navbar</Text>
-          <Navbar.Section>{"Footer with user"}</Navbar.Section>
+          <Navbar.Section>Footer with user</Navbar.Section>
         </Navbar>
       }
       aside={
         <MediaQuery smallerThan="sm" styles={{ display: "none" }}>
-          <Aside p="md" hiddenBreakpoint="sm" width={{ sm: 200, lg: 300 }}>
+          {/* <Aside p="md" hiddenBreakpoint="sm" width={{ sm: 200, lg: 300 }}>
             <Text>Application sidebar</Text>
+          </Aside> */}
+          <Aside height={400} p="xs" width={{ base: 300 }}>
+            <Aside.Section> Header with logo</Aside.Section>
+            <Aside.Section grow>Links sections 1</Aside.Section>
+            <Aside.Section grow>Links sections 2</Aside.Section>
+            <Aside.Section grow>Links sections 3</Aside.Section>
+            <Aside.Section grow>Links sections 4</Aside.Section>
+            <Aside.Section grow>Links sections 5</Aside.Section>
+            <Aside.Section>Footer with user 1</Aside.Section>
+            <Aside.Section>Footer with user 2</Aside.Section>
+            <Aside.Section>Footer with user 3</Aside.Section>
           </Aside>
         </MediaQuery>
       }
