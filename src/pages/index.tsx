@@ -39,10 +39,22 @@ const Home: NextPage = () => {
           Link: Mantine 入門3 主要パーツ一覧
         </Button>
       </Link>{" "}
-      <br/>
-      <Link href="/component_props4">
+      <br />
+      <Link href="/component_props4_1">
         <Button className=" text-blue-800">
-          Link: Mantine 入門4 主要パーツ一覧
+          Link: Mantine 入門4 使用例1 基本
+        </Button>
+      </Link>
+      <br />
+      <Link href="/component_props4_2responsive">
+        <Button className=" text-blue-800">
+          Link: Mantine 入門4 使用例2 レスポンシブ
+        </Button>
+      </Link>{" "}
+      <br />
+      <Link href="/component_props4_2responsive_alt">
+        <Button className=" text-blue-800">
+          Link: Mantine 入門4 使用例2 alt
         </Button>
       </Link>
     </>
