@@ -36,13 +36,21 @@ const Value: NextPage = () => {
       navbarOffsetBreakpoint="sm"
       asideOffsetBreakpoint="sm"
       navbar={
-        <Navbar
-          p="md"
-          hiddenBreakpoint="sm"
-          hidden={!opened}
-          width={{ sm: 200, lg: 300 }}
-        >
+        // <Navbar
+        //   p="md"
+        //   hiddenBreakpoint="sm"
+        //   hidden={!opened}
+        //   width={{ sm: 200, lg: 300 }}
+        // >
+        //   <Text>Application navbar</Text>
+        // </Navbar>
+        <Navbar height={300} p="xs" width={{ base: 250 }}>
+          <Navbar.Section>{"Header with logo"}</Navbar.Section>
+          <Navbar.Section grow mt="md">
+            {"Links sections"}
+          </Navbar.Section>
           <Text>Application navbar</Text>
+          <Navbar.Section>{"Footer with user"}</Navbar.Section>
         </Navbar>
       }
       aside={
@@ -53,7 +61,7 @@ const Value: NextPage = () => {
         </MediaQuery>
       }
       footer={
-        <Footer height={60} p="md">
+        <Footer height={60} p="md" hidden>
           Application footer
         </Footer>
       }
