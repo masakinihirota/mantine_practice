@@ -56,6 +56,12 @@ const Home: NextPage = () => {
         <Button className=" text-blue-800">
           Link: Mantine 入門4 使用例2 alt
         </Button>
+      </Link>{" "}
+      <br />
+      <Link href="/component_props4_3hidden">
+        <Button className=" text-blue-800">
+          Link: Mantine 入門4 使用例3 hidden
+        </Button>
       </Link>
     </>
   );
