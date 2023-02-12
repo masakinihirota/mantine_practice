@@ -54,12 +54,25 @@ const Value: NextPage = () => {
         //   <Navbar.Section>{"Footer with user"}</Navbar.Section>
         // </Navbar>
         //
-        <Navbar height={600} p="xs" width={{ base: 300 }}>
-          <Navbar.Section> Header with logo</Navbar.Section>
-          <Navbar.Section grow mt="md">
-            Links sections
-          </Navbar.Section>
-          <Navbar.Section>Footer with user</Navbar.Section>
+        // <Navbar height={600} p="xs" width={{ base: 300 }}>
+        //   <Navbar.Section> Header with logo</Navbar.Section>
+        //   <Navbar.Section grow mt="md">
+        //     Links sections
+        //   </Navbar.Section>
+        //   <Navbar.Section>Footer with user</Navbar.Section>
+        // </Navbar>
+        //
+        <Navbar
+          width={{
+            // viewport が theme.breakpoints.sm より大きい場合、Navbar の幅は300 になります。
+            sm: 300,
+            // ビューポートが theme.breakpoints.lg よりも大きい場合、ナビバーの幅は 400 になります。
+            lg: 400,
+            // 他のブレークポイントが一致しない場合、ベース幅が使用され、デフォルトは100%になる
+            base: 100,
+          }}
+        >
+          Application navbar
         </Navbar>
       }
       aside={
