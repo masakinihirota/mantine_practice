@@ -14,9 +14,9 @@ https://create.t3.gg/
 
 - [x] ページ表示
 - [x] ページ遷移
-- [ ] 画面ナビの設定
-- [ ] 2 画面 Nav + main
-- [ ] Header Footer Nav Side Main
+- [x] 画面ナビの設定
+- [x] 2 画面 Nav + main
+- [x] Header Footer Nav Side Main
 - [ ]
 - [ ]
 - [ ]
