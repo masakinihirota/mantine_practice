@@ -66,7 +66,13 @@ const Home: NextPage = () => {
       <br />
       <Link href="/component_props4_4Home">
         <Button className=" text-blue-800">
-          Link: Mantine 入門5 使用例4 Home
+          Link: Mantine 入門5 使用例4 Home Nav集大成
+        </Button>
+      </Link>
+      <br />
+      <Link href="/component_props5_responsive">
+        <Button className=" text-blue-800">
+          Link: Mantine 入門5 レスポンシブ
         </Button>
       </Link>
     </>
