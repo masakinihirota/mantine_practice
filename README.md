@@ -51,3 +51,25 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
 ## How do I deploy this?
 
 Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+
+# 学習 参照サイト
+
+Mantine 入門 1 　セットアップとリンクの貼り方、テーマの概要｜ tomy ｜ note
+https://note.com/tom_js/n/n38e0d7a12b70
+
+Mantine 入門　 2 スタイルを書く｜ tomy ｜ note
+https://note.com/tom_js/n/nce5a414df7c8
+
+Mantine 入門 3 　主要パーツ一覧｜ tomy ｜ note
+https://note.com/tom_js/n/n056e73fbf69c
+
+Mantine 入門 4 　ブログトップページの構成と主要パーツの選定｜ tomy ｜ note
+https://note.com/tom_js/n/na0d127500076
+
+Mantine 入門 5 トップページに動きをつけよう｜ tomy ｜ note
+https://note.com/tom_js/n/n8e4a747cda45
+
+Mantine 入門 6 ブログ概要入力フォームを作成しよう｜ tomy ｜ note
+https://note.com/tom_js/n/n31b2c911bb5e
+
+入門 4 2 回目
